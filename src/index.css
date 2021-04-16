@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+}
+body {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  overflow-X: hidden;
+  width:100%;
+  background:#19171d;
+  color:#fff;
+  font-family:'Ubuntu';
+}
+
+body::-webkit-scrollbar{
+  width:10px;
+}
+body::-webkit-scrollbar-thumb{
+  background:#25273c;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
