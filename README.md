@@ -1,5 +1,5 @@
 # Project Preview: <br>
-<a href="https://todo-list-app-react.vercel.app/" target="_blank>
+<a href="https://todo-list-app-react.vercel.app/" target="_blank">
 <img src="https://i.ibb.co/y82c9bH/Screenshot-18.png" alt="Screenshot-18" border="0">
  </a>
 
