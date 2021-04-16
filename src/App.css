@@ -43,7 +43,6 @@ header{
 }
 .todo_list_input{
   padding:10px;
-  border:none;
   outline:none;
   border-radius:5px;
   -webkit-border-radius:5px;
@@ -52,6 +51,9 @@ header{
   -o-border-radius:5px;
   margin-right:5px;
   font-size:15px;
+}
+.todo_list_input:focus{
+  border:2px solid black !important;
 }
 .todo_add_btn{
   border:none;

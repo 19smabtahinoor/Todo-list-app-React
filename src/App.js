@@ -3,10 +3,13 @@ import './App.css';
 import TodoList from './Todolist'
 
 function App() {
-
+  
+  const inputBorder = '1px solid white'
+  const inputPlaceholder = 'Add Todo'
   const [todo, setstate] = useState("")
   const [items, setItems] = useState([])
-
+  const [newBorder,setNewBorder] = useState(inputBorder)
+  const [newPlaceholder,setNewPlaceholder] = useState(inputPlaceholder)
 
   const inputValue = (e) => {
     const uservalue = e.target.value
@@ -17,7 +20,11 @@ function App() {
     e.preventDefault()
     
     if(todo === ''){
-      alert('You must write anything')
+      let newBorderred = '2px solid red'
+      setNewBorder(newBorderred)
+
+      let newPlaceholdered = 'You must write anything'
+      setNewPlaceholder(newPlaceholdered)
       
     }else{
       // setItems((oldItems) => {
@@ -50,7 +57,7 @@ function App() {
       </header>
 
       <div className="inputBoxs">
-        <input type="text" placeholder="Add Item" className="todo_list_input" onChange={inputValue} value={todo} />
+        <input type="text" placeholder={newPlaceholder} className="todo_list_input" onChange={inputValue} value={todo} style={{border:newBorder}}/>
         <button className="todo_add_btn" onClick={addTodo} >
           <span className="material-icons addBtn">&#xe145;</span>
         </button>
