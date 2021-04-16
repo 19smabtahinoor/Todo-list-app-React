@@ -15,23 +15,16 @@ function App() {
 
   const addTodo = (e) => {
     e.preventDefault()
-    setItems((oldItems) => {
-      return [...oldItems, todo]
-    })
+    
     if(todo === ''){
       alert('You must write anything')
-      setItems([])
-    //   const deleteitems = (id) => {
-    //     setItems((oldItems) => {
-    //       return oldItems.filter( (arr,index) => {
-    //         return index !== id
-    //       })
-    //     })
-    // }
-    // deleteitems()
+      
+    }else{
+      // setItems((oldItems) => {
+      //   return [...oldItems, todo]
+      // })
+      setItems([...items, todo])
     }
-  
-    
     setstate('')
   }
 
