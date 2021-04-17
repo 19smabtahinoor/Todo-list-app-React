@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
-import TodoList from './Todolist'
+import Todolist from './Todolist'
 import AddIcon from '@material-ui/icons/Add'
 import RefreshIcon from '@material-ui/icons/Refresh';
 
@@ -76,7 +76,7 @@ function App() {
 
           {items.map((itemsValue,index) => {
             return (
-              <TodoList 
+              <Todolist 
                 key = {index}
                 id = {index}
                 todoText= {itemsValue}
