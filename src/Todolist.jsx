@@ -1,13 +1,14 @@
 import React from 'react'
+import DeleteOutlineIcon from '@material-ui/icons/DeleteOutline';
 
 function TodoList(props) {
     return(
         <>
         <li className="todo_lists">
           <p>{props.todoText}</p> 
-          <span className="material-icons deleteButton" onClick={() => {
+          <DeleteOutlineIcon className="deleteButton" onClick={() => {
               props.onselect(props.id)
-          }}>&#xe14c;</span>
+          }}/>
         </li>
         </>
       )

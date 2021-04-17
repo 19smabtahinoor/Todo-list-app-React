@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import './App.css';
 import TodoList from './Todolist'
+import AddIcon from '@material-ui/icons/Add'
+import RefreshIcon from '@material-ui/icons/Refresh';
+
 
 function App() {
   
@@ -58,12 +61,12 @@ function App() {
 
       <div className="inputBoxs">
         <input type="text" placeholder={newPlaceholder} className="todo_list_input" onChange={inputValue} value={todo} style={{border:newBorder}}/>
-        <button className="todo_add_btn" onClick={addTodo} >
-          <span className="material-icons addBtn">&#xe145;</span>
+        <button className="todo_add_btn">
+          <AddIcon className="addBtn" onClick={addTodo} />
         </button>
 
-        <button className="todo_refresh_btn" onClick={refreshTodo}>
-          <span className="material-icons refreshbtn">&#xe5d5;</span>
+        <button className="todo_refresh_btn">
+          <RefreshIcon className="refreshbtn"  onClick={refreshTodo}/>
         </button>
 
       </div>

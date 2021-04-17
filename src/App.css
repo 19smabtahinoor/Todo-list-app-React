@@ -80,18 +80,19 @@ header{
   -ms-transform:scale(0.90);
   -o-transform:scale(0.90);
 }
-.todo_add_btn:hover{
-  background: green;
-}
-.addBtn{
-  color:white;
-  font-size:36px;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
+.addBtn{
+  color: white !important;
+  width: 36px !important;
+  height: 36px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: #4caf50;
+  padding: 5px;
+  border-radius: 100%;
+}
 
 .todo_refresh_btn{
   border:none;
@@ -120,12 +121,13 @@ header{
 }
 
 .refreshbtn{
-  color:white;
-  font-size:36px;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  color:white !important;
+  display:flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 36px !important;
+  height: 36px !important;
 }
 
 .todo_itmes{
