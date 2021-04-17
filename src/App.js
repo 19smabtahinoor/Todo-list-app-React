@@ -66,7 +66,7 @@ function App() {
         </button>
 
         <button className="todo_refresh_btn">
-          <RefreshIcon className="refreshbtn"  onClick={refreshTodo}/>
+          <RefreshIcon className="refreshbtn" onClick={refreshTodo}/>
         </button>
 
       </div>
