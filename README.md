@@ -1,8 +1,3 @@
-# Project Preview: <br>
-<a href="https://todo-list-app-react.vercel.app/" target="_blank">
-<img src="https://i.ibb.co/y82c9bH/Screenshot-18.png" alt="Screenshot-18" border="0">
- </a>
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
