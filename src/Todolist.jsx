@@ -1,7 +1,7 @@
 import React from 'react'
 import DeleteOutlineIcon from '@material-ui/icons/DeleteOutline';
 
-function TodoList(props) {
+function Todolist(props) {
     return(
         <>
         <li className="todo_lists">
@@ -13,4 +13,4 @@ function TodoList(props) {
         </>
       )
 }
-export default TodoList
+export default Todolist
